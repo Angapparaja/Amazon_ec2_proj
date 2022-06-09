@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AWS  Regression Suite" duration-ms="6653" started-at="2022-06-06T07:42:02Z" finished-at="2022-06-06T07:42:08Z">
+    <groups>
+    </groups>
+    <test name="AWS Test" duration-ms="6653" started-at="2022-06-06T07:42:02Z" finished-at="2022-06-06T07:42:08Z">
+      <class name="Amazon_ec2_project.FirstTest">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:Amazon_ec2_project.FirstTest@165b2f7f]" name="OpenBrowser" duration-ms="6109" started-at="2022-06-06T13:12:02Z" finished-at="2022-06-06T13:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+      </class> <!-- Amazon_ec2_project.FirstTest -->
+    </test> <!-- AWS Test -->
+  </suite> <!-- AWS  Regression Suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AWS  Regression Suite" thread-count="1"
+	parallel="none" verbose="4">
+
+	<listeners>
+<!--<listener
+			class-name="com.ba.Mail.listeners.TestAllureListener" /> -->
+	
+		
+	</listeners>
+
+	<test name="AWS Test">
+		
+		<classes>
+			
+<class name="Amazon_ec2_project.FirstTest" />
+		</classes>
+	</test>
+
+</suite>
